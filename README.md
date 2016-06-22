@@ -9,10 +9,11 @@
 
 Требуемые для сборки библиотеки:
 
-
 boost::regex(1_59)
 
-ws2_32.lib(для Windows)
+Для Windows требуется подключать ws2_32.lib:
+#pragma comment(lib, "Ws2_32.lib") в Visual Studio
+-lws2_32 для MinGW
 
 Состоит из трех частей:
 
