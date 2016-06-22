@@ -12,7 +12,7 @@
 boost::regex(1_59)
 
 Для Windows требуется подключать ws2_32.lib:
-# pragma comment(lib, "Ws2_32.lib") в Visual Studio
+\#pragma comment(lib, "Ws2_32.lib") в Visual Studio
 -lws2_32 для MinGW
 
 Состоит из трех частей:
