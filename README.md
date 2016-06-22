@@ -10,7 +10,7 @@
 Требуемые для сборки библиотеки:
 
 boost::regex (1_59v) и ws2_32.lib при компиляции на Windows
-\n
+
 
 
 
@@ -20,6 +20,7 @@ boost::regex (1_59v) и ws2_32.lib при компиляции на Windows
 \#pragma comment(lib, "Ws2_32.lib") в Visual Studio
 
 -lws2_32 для MinGW
+
 
 Состоит из трех частей:
 
